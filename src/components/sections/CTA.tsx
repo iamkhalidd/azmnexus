@@ -16,7 +16,7 @@ export function CTA() {
                 Ready to Build Your <span className="text-accent">Enterprise Nexus?</span>
               </h2>
               <p className="text-xl text-primary-foreground/80 leading-relaxed">
-                Join the ranks of global leaders who have transformed their digital infrastructure with AZM Nexus. Let's architect your future together.
+                Join the ranks of global leaders who have transformed their digital infrastructure with AZM Nexus. Let&apos;s architect your future together.
               </p>
             </div>
 

@@ -62,7 +62,7 @@ export function Capabilities() {
                   </div>
                   <h3 className="text-3xl font-bold text-primary">Fortified Security Frameworks</h3>
                   <p className="text-lg text-muted-foreground leading-relaxed">
-                    Security is not an afterthought; it's woven into every line of code and every piece of hardware we deploy.
+                    Security is not an afterthought; it&apos;s woven into every line of code and every piece of hardware we deploy.
                   </p>
                   <ul className="space-y-4">
                     {["Zero-trust architecture", "End-to-end encryption", "Real-time threat detection"].map((item, i) => (

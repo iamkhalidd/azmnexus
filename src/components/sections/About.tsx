@@ -1,4 +1,4 @@
-import Image from "next/image"
+
 import { Button } from "@/components/ui/button"
 import { CheckCircle2 } from "lucide-react"
 import { StrategyIllustration } from "@/components/ui/illustrations"
@@ -37,7 +37,7 @@ export function About() {
                 Driving the Nexus of <span className="text-accent">Strategy & Technology</span>
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Founded on the principle of seamless integration, AZM Nexus has evolved into a global leader in technological orchestration. We don't just provide services; we architect the digital future of our partners.
+                Founded on the principle of seamless integration, AZM Nexus has evolved into a global leader in technological orchestration. We don&apos;t just provide services; we architect the digital future of our partners.
               </p>
             </div>
 
@@ -51,7 +51,7 @@ export function About() {
             </div>
 
             <p className="text-muted-foreground leading-relaxed italic border-l-4 border-accent pl-6 py-2">
-              "In a world of fragmented data and disconnected systems, our mission is to create the nexus where all components of an enterprise thrive in unison."
+              &quot;In a world of fragmented data and disconnected systems, our mission is to create the nexus where all components of an enterprise thrive in unison.&quot;
             </p>
 
             <div className="flex pt-4">
