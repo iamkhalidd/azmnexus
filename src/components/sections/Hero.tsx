@@ -16,10 +16,6 @@ export function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="flex flex-col gap-8 max-w-2xl">
             <div className="flex flex-col gap-4">
-              <Badge variant="outline" className="w-fit py-1.5 px-4 border-accent/30 bg-accent/5 text-accent font-medium rounded-full flex items-center gap-2">
-                <span className="flex h-2 w-2 rounded-full bg-accent animate-pulse" />
-                Next Generation Digital Solutions
-              </Badge>
               <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-primary leading-[1.1]">
                 Bridging Complexity with <span className="text-accent">Strategic Clarity</span>
               </h1>
