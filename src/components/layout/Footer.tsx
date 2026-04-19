@@ -54,15 +54,15 @@ export function Footer() {
             <div className="flex flex-col gap-4">
               <div className="flex items-start gap-3 text-primary-foreground/70">
                 <MapPin className="h-5 w-5 mt-0.5 text-accent" />
-                <span>Lagos, Nigeria</span>
+                <span>123 Technology Drive, Innovation City, CA 94043</span>
               </div>
               <div className="flex items-center gap-3 text-primary-foreground/70">
                 <Phone className="h-5 w-5 text-accent" />
-                <span>+234 (901) 557-1955</span>
+                <span>+1 (800) 123-4567</span>
               </div>
               <div className="flex items-center gap-3 text-primary-foreground/70">
                 <Mail className="h-5 w-5 text-accent" />
-                <span>azmnexuslimited@gmail.com</span>
+                <span>contact@azmnexus.com</span>
               </div>
             </div>
           </div>

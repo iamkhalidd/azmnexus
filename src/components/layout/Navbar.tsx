@@ -75,7 +75,7 @@ export function Navbar() {
             } />
             <SheetContent side="right" className="w-[300px] sm:w-[400px] bg-background border-l border-border/40">
               <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
-              <div className="flex flex-col gap-8 mt-12">
+              <div className="flex flex-col gap-8 mt-16 px-6">
                 <Link href="/" className="flex items-center space-x-2" onClick={() => setIsOpen(false)}>
                   <Image
                     src="/assets/images/logo.png"
@@ -85,21 +85,21 @@ export function Navbar() {
                   />
                   <span className="text-xl font-bold tracking-tight text-primary">AZM NEXUS</span>
                 </Link>
-                <nav className="flex flex-col gap-4">
+                <nav className="flex flex-col gap-6">
                   {navItems.map((item) => (
                     <Link
                       key={item.title}
                       href={item.href}
-                      className="text-lg font-medium hover:text-accent transition-colors py-2 border-b border-border/10"
+                      className="text-xl font-medium hover:text-accent transition-colors py-2 border-b border-border/10"
                       onClick={() => setIsOpen(false)}
                     >
                       {item.title}
                     </Link>
                   ))}
                 </nav>
-                <div className="flex flex-col gap-4 mt-4">
-                  <Button variant="outline" className="w-full">Login</Button>
-                  <Button className="w-full bg-primary text-primary-foreground">Get Started</Button>
+                <div className="flex flex-col gap-4 mt-8">
+                  <Button variant="outline" className="w-full h-12 text-lg">Login</Button>
+                  <Button className="w-full h-12 text-lg bg-primary text-primary-foreground">Get Started</Button>
                 </div>
               </div>
             </SheetContent>
