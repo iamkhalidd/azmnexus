@@ -83,7 +83,7 @@ export function Navbar() {
                   />
                   <span className="text-xl font-bold tracking-tight text-primary">AZM NEXUS</span>
                 </Link>
-                <nav className="flex flex-col gap-6">
+                <nav className="flex flex-col gap-8">
                   {navItems.map((item) => (
                     <Link
                       key={item.title}
@@ -95,7 +95,7 @@ export function Navbar() {
                     </Link>
                   ))}
                 </nav>
-                <div className="flex flex-col gap-4 mt-8">
+                <div className="flex flex-col gap-6 mt-8">
                   <Button variant="outline" className="w-full h-12 text-lg">Login</Button>
                   <Button className="w-full h-12 text-lg bg-primary text-primary-foreground">Get Started</Button>
                 </div>
